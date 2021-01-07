@@ -167,6 +167,11 @@ float(33)
 bool(0)
 bool(3)
 
+# string interpolation
+print('Hello, my name is ' + name)
+# THIS WORKS, BUT VS CODE IS HAVING A HISSY FIT
+# print(f"Hello, my name is {name}")
+
 # SHORTCUTS
 # str[index] choose one letter at index
 # str[-index] choose letter at index counting backwards from the end.
