@@ -73,6 +73,30 @@ print('Rome' == 'rome' and 'Pete' == 'Pete') # FALSE
 print('' or 'Rome') # Will return 'Rome' because it is the truthy value
 print(0 or 5) # Will return 5 because it is the truthy value
 
+# list (array)
+numbers = [3,4,5,6]
+print(len(numbers))
+print(numbers[2])
+# last item
+print(numbers[-1])
+print(numbers[len(numbers)-1])
+print(numbers[3])
+
+# do something a number of times
+
+five_rome_string = 'Rome' * 5
+five_rome_list = ['Rome'] * 5
+
+print(five_rome_string)
+print(five_rome_list)
+
+zero_through_four = list(range(5))
+print(zero_through_four)
+
+for i in range(len(zero_through_four)):
+    num = zero_through_four[i]
+    print(num)
+
 # SHORTCUTS
 # str[index] choose one letter at index
 # str[-index] choose letter at index counting backwards from the end.
