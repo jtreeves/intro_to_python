@@ -216,6 +216,9 @@ def like_people(person1, person2):
 
 print(like_people('Alan', 'Lev'))
 
+age = input('How old are you? ')
+print(age)
+
 # SHORTCUTS
 # str[index] choose one letter at index
 # str[-index] choose letter at index counting backwards from the end.
