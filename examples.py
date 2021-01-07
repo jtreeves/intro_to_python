@@ -172,6 +172,24 @@ print('Hello, my name is ' + name)
 # THIS WORKS, BUT VS CODE IS HAVING A HISSY FIT
 # print(f"Hello, my name is {name}")
 
+def print_name(someone):
+    return someone
+
+print(print_name(name))
+print(print_name('Will'))
+
+def old_enough(age):
+    if age < 21:
+        return 'You are not old enough'
+    elif age == 21:
+        return 'You made it to adulthood'
+    else:
+        return 'You are an adult'
+
+print(old_enough(20))
+print(old_enough(21))
+print(old_enough(22))
+
 # SHORTCUTS
 # str[index] choose one letter at index
 # str[-index] choose letter at index counting backwards from the end.
