@@ -97,6 +97,76 @@ for i in range(len(zero_through_four)):
     num = zero_through_four[i]
     print(num)
 
+# create list and iterate over list and print value
+fave_foods = ['pizza', 'ice cream', 'steak', 'eggs']
+for i in range(len(fave_foods)):
+    food = fave_foods[i]
+    print(food)
+
+random_numbers = [45, 88, 4, 17]
+print(random_numbers)
+random_numbers.sort()
+print(random_numbers)
+
+# OR:
+# sorted_numbers = random_numbers.sort()
+# print(random_numbers)
+# NOTE: THIS WILL RETURN 'NONE'
+# print(sorted_numbers)
+
+reverse_random_numbers = random_numbers[::-1]
+print(reverse_random_numbers)
+
+random_numbers.append(33)
+print(random_numbers)
+
+thirty_three = random_numbers.pop()
+print(thirty_three)
+print(random_numbers)
+
+random_numbers.insert(2,99)
+print(random_numbers)
+
+random_numbers.insert(1,167)
+print(random_numbers)
+
+# help
+# print(help(random_numbers))
+
+car = {
+    'color': 'Red',
+    'make': 'Tesla',
+    'model': 'S',
+    'cool_car': True,
+    'other_tesla_products': {
+        'product1': 'Model 3',
+        'product2': 'Model X',
+        'product3': 'Cybertruck'
+    }
+}
+
+# help TELLS YOU WHAT YOU CAN DO WITH THIS THING
+# print(help(car))
+
+print(car['make'])
+
+car['speed'] = 200
+
+print(car['speed'])
+
+print(car.get('color'))
+
+print(car.items())
+
+print(car.keys())
+
+# type conversion
+int('33')
+str(33)
+float(33)
+bool(0)
+bool(3)
+
 # SHORTCUTS
 # str[index] choose one letter at index
 # str[-index] choose letter at index counting backwards from the end.
