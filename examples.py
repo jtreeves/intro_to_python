@@ -194,6 +194,28 @@ print(old_enough(20))
 print(old_enough(21))
 print(old_enough(22))
 
+def add(num1, num2):
+    return num1 + num2
+
+def subtract(num1, num2):
+    return num1 - num2
+
+def multiply(num1, num2):
+    return num1 * num2
+
+def divide(num1, num2):
+    return num1 / num2
+
+print(add(4,10))
+print(subtract(4,10))
+print(multiply(4,10))
+print(divide(4,10))
+
+def like_people(person1, person2):
+    return 'I like {}, and I like {}'.format(person1, person2)
+
+print(like_people('Alan', 'Lev'))
+
 # SHORTCUTS
 # str[index] choose one letter at index
 # str[-index] choose letter at index counting backwards from the end.
