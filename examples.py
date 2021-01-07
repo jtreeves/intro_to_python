@@ -171,6 +171,10 @@ bool(3)
 print('Hello, my name is ' + name)
 # THIS WORKS, BUT VS CODE IS HAVING A HISSY FIT
 # print(f"Hello, my name is {name}")
+phrase = 'Hello, my name is {}'
+phrase.format(name)
+print(phrase.format(name))
+print('Hello, my name is {}'.format(name))
 
 def print_name(someone):
     return someone
