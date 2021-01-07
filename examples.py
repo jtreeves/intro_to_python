@@ -49,6 +49,30 @@ last_letter = day_sentence[-1]
 nicole_range = day_sentence[9:15]
 print(nicole_range)
 
+# length
+print(len(nicole_range))
+
+# logical operators
+equal_to = 5 == 5
+not_equal = 5 != 5
+
+false_variable = not True
+true_variable = not False
+
+print(9 < 30)
+
+print(5 < 6 < 7)
+
+print(5 < 4 or 6 > 30)
+
+print(5 < 6 and 1 > 0)
+
+print('Rome' == 'rome' or 'Pete' == 'Pete') # TRUE
+print('Rome' == 'rome' and 'Pete' == 'Pete') # FALSE
+
+print('' or 'Rome') # Will return 'Rome' because it is the truthy value
+print(0 or 5) # Will return 5 because it is the truthy value
+
 # SHORTCUTS
 # str[index] choose one letter at index
 # str[-index] choose letter at index counting backwards from the end.
